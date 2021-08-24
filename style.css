@@ -17,7 +17,12 @@ html {
     align-items: center;
     justify-content: center;
   }
-  
+  .keys-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .key {
     border: .4rem solid black;
     border-radius: .5rem;
